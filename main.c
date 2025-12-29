@@ -31,7 +31,7 @@ int main() {
             default:
                 printf("\nInvalid Option. Please Try Again.\n");
         }
-    } while (opts != 3);
+    } while (opts != exit);
 
     return 0;
 
